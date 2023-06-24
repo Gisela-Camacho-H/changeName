@@ -11,7 +11,7 @@ import UIKit
 final class ViewController: UIViewController {
   // MARK: - Properties
     private var giselaCamacho: UIView.Labels?
-    private var koder1: UIView.Labels?
+    private var Miguel: UIView.Labels?
     private var koder2: UIView.Labels?
     private var koder3: UIView.Labels?
     private var victorC: UIView.Labels?
@@ -34,11 +34,11 @@ final class ViewController: UIViewController {
         view.addSubview(giselaCamacho)
         self.giselaCamacho = giselaCamacho
         
-        let koder1 = UIView.Labels(frame: .zero)
-        koder1.text = "Koder1 - me gusta el color koderColor"
-        koder1.textColor = UIColor.labelColor
-        view.addSubview(koder1)
-        self.giselaCamacho = koder1
+        let Miguel = UIView.Labels(frame: .zero)
+        Miguel.text = "Miguel - me gusta el color Azul"
+        Miguel.textColor = UIColor.labelColor
+        view.addSubview(Miguel)
+        self.giselaCamacho = Miguel
         
         let koder2 = UIView.Labels(frame: .zero)
         koder2.text = "Koder2 - me gusta el color koderColor"

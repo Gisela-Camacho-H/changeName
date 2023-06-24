@@ -16,6 +16,9 @@ final class ViewController: UIViewController {
     private var fernando: UIView.Labels?
     private var koder3: UIView.Labels?
     private var victorC: UIView.Labels?
+    private var koder2: UIView.Labels?
+    private var rose: UIView.Labels?
+    private var koder4: UIView.Labels?
     private var labelStackView1: UIStackView?
 
   // MARK: - Lifecycle methods
@@ -47,11 +50,11 @@ final class ViewController: UIViewController {
         view.addSubview(fernando)
         self.giselaCamacho = fernando
         
-        let koder3 = UIView.Labels(frame: .zero)
-        koder3.text = "Koder3 - me gusta el color koderColor"
-        koder3.textColor = UIColor.labelColor
-        view.addSubview(koder3)
-        self.giselaCamacho = koder3
+        let rose = UIView.Labels(frame: .zero)
+        rose.text = "Rose - me gusta el color purple"
+        rose.textColor = UIColor.labelColor
+        view.addSubview(rose)
+        self.giselaCamacho = rose
         
         let victorC = UIView.Labels(frame: .zero)
         victorC.text = "Victor - me gusta el color azul"
@@ -63,7 +66,7 @@ final class ViewController: UIViewController {
         labelStackView1.translatesAutoresizingMaskIntoConstraints = false
         
 
-        let labelArray1: [UILabel] = [giselaCamacho, Miguel, fernando, koder3, victorC]
+        let labelArray1: [UILabel] = [giselaCamacho, Miguel, fernando, rose, victorC]
         
         labelStackView1.axis = .vertical
         labelStackView1.spacing = Constants.padding

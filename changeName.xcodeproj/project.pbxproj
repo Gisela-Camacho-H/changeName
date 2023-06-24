@@ -16,6 +16,7 @@
 		566248EC2A461AE90034FBFF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566248EB2A461AE90034FBFF /* Constants.swift */; };
 		566248EE2A461B000034FBFF /* UIColor++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566248ED2A461B000034FBFF /* UIColor++.swift */; };
 		566248F02A461F3F0034FBFF /* UIView++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566248EF2A461F3F0034FBFF /* UIView++.swift */; };
+		56BAB9C92A4682AF00F99DC7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BAB9C82A4682AF00F99DC7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		566248EB2A461AE90034FBFF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		566248ED2A461B000034FBFF /* UIColor++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor++.swift"; sourceTree = "<group>"; };
 		566248EF2A461F3F0034FBFF /* UIView++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView++.swift"; sourceTree = "<group>"; };
+		56BAB9C82A4682AF00F99DC7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				560C3AE82A4616A900AC6573 /* AppDelegate.swift */,
 				560C3AEA2A4616A900AC6573 /* SceneDelegate.swift */,
+				56BAB9C82A4682AF00F99DC7 /* LoginViewController.swift */,
 				560C3AEC2A4616A900AC6573 /* ViewController.swift */,
 				566248EA2A461AC70034FBFF /* Extensions */,
 				560C3AEE2A4616A900AC6573 /* Main.storyboard */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BAB9C92A4682AF00F99DC7 /* LoginViewController.swift in Sources */,
 				560C3AED2A4616A900AC6573 /* ViewController.swift in Sources */,
 				560C3AE92A4616A900AC6573 /* AppDelegate.swift in Sources */,
 				566248F02A461F3F0034FBFF /* UIView++.swift in Sources */,

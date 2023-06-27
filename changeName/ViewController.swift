@@ -12,7 +12,8 @@ final class ViewController: UIViewController {
   // MARK: - Properties
     private var giselaCamacho: UIView.Labels?
     private var Miguel: UIView.Labels?
-    private var koder2: UIView.Labels?
+    private var koder1: UIView.Labels?
+    private var fernando: UIView.Labels?
     private var koder3: UIView.Labels?
     private var victorC: UIView.Labels?
     private var labelStackView1: UIStackView?
@@ -40,11 +41,11 @@ final class ViewController: UIViewController {
         view.addSubview(Miguel)
         self.giselaCamacho = Miguel
         
-        let koder2 = UIView.Labels(frame: .zero)
-        koder2.text = "Koder2 - me gusta el color koderColor"
-        koder2.textColor = UIColor.labelColor
-        view.addSubview(koder2)
-        self.giselaCamacho = koder2
+        let fernando = UIView.Labels(frame: .zero)
+        fernando.text = "Fernando - me gusta el color Negro"
+        fernando.textColor = UIColor.labelColor
+        view.addSubview(fernando)
+        self.giselaCamacho = fernando
         
         let koder3 = UIView.Labels(frame: .zero)
         koder3.text = "Koder3 - me gusta el color koderColor"
@@ -61,7 +62,8 @@ final class ViewController: UIViewController {
         let labelStackView1 = UIStackView(frame: .zero)
         labelStackView1.translatesAutoresizingMaskIntoConstraints = false
         
-        let labelArray1: [UILabel] = [giselaCamacho, koder1, koder2, koder3, victorC]
+
+        let labelArray1: [UILabel] = [giselaCamacho, Miguel, fernando, koder3, victorC]
         
         labelStackView1.axis = .vertical
         labelStackView1.spacing = Constants.padding

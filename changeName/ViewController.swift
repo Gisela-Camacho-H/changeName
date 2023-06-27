@@ -18,7 +18,6 @@ final class ViewController: UIViewController {
     private var victorC: UIView.Labels?
     private var koder2: UIView.Labels?
     private var rose: UIView.Labels?
-    private var koder4: UIView.Labels?
     private var labelStackView1: UIStackView?
 
   // MARK: - Lifecycle methods
@@ -38,23 +37,35 @@ final class ViewController: UIViewController {
         view.addSubview(giselaCamacho)
         self.giselaCamacho = giselaCamacho
         
+        let koder1 = UIView.Labels(frame: .zero)
+        koder1.text = "Koder1 - me gusta el color koderColor"
+        koder1.textColor = UIColor.labelColor
+        view.addSubview(koder1)
+        self.giselaCamacho = koder1
+
         let Miguel = UIView.Labels(frame: .zero)
         Miguel.text = "Miguel - me gusta el color Azul"
         Miguel.textColor = UIColor.labelColor
         view.addSubview(Miguel)
-        self.giselaCamacho = Miguel
+        self.Miguel = Miguel
         
         let fernando = UIView.Labels(frame: .zero)
         fernando.text = "Fernando - me gusta el color Negro"
         fernando.textColor = UIColor.labelColor
         view.addSubview(fernando)
-        self.giselaCamacho = fernando
+        self.fernando = fernando
+        
+        let koder2 = UIView.Labels(frame: .zero)
+        koder2.text = "Koder2 - me gusta el color koderColor"
+        koder2.textColor = UIColor.labelColor
+        view.addSubview(koder2)
+        self.koder2 = koder2
         
         let rose = UIView.Labels(frame: .zero)
         rose.text = "Rose - me gusta el color purple"
         rose.textColor = UIColor.labelColor
         view.addSubview(rose)
-        self.giselaCamacho = rose
+        self.rose = rose
         
         let victorC = UIView.Labels(frame: .zero)
         victorC.text = "Victor - me gusta el color azul"
@@ -64,7 +75,6 @@ final class ViewController: UIViewController {
         
         let labelStackView1 = UIStackView(frame: .zero)
         labelStackView1.translatesAutoresizingMaskIntoConstraints = false
-        
 
         let labelArray1: [UILabel] = [giselaCamacho, Miguel, fernando, rose, victorC]
         

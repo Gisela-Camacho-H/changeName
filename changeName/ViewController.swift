@@ -17,6 +17,7 @@ final class ViewController: UIViewController {
     private var koder3: UIView.Labels?
     private var victorC: UIView.Labels?
     private var labelStackView1: UIStackView?
+    private var koder5: UIView.Labels?
 
   // MARK: - Lifecycle methods
     override func viewDidLoad() {
